@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Creates a circle.
                        DESC
 
   s.homepage         = 'https://github.com/justinewright/TutSKImageExtension'
@@ -30,7 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TutSKImageExtension/Classes/**/*'
+  s.source_files = 'TutSKImageExtension/Classes/*.swift'
+  #s.source_files = 'TutSKImageExtension/Classes/**/*'
+  s.frameworks = 'UIKit'
   
   # s.resource_bundles = {
   #   'TutSKImageExtension' => ['TutSKImageExtension/Assets/*.png']

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2186113C260B6CDC009FAF55 /* TutSKImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2186113B260B6CDC009FAF55 /* TutSKImageExtension.swift */; };
 		24D12520354BB97F8DE15B8AE3867E45 /* TutSKImageExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0586E0EF597BF6A544BE9E5BA0AECE1 /* TutSKImageExtension-dummy.m */; };
 		31F32D186796191A68A5682E74EA7D48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		47F568656FB4322BE9F89FFA34E7D165 /* Pods-TutSKImageExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF77B63A56D9EA15F6076FA5299A6811 /* Pods-TutSKImageExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -15,7 +16,6 @@
 		AEB3D9889D654DF93DBA1850A04F6985 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D4C790F22BE59E7B5DCD11E7689BB1AF /* Pods-TutSKImageExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BCD8D73097AF643B54B3034CDE07CA8 /* Pods-TutSKImageExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF2BBF5F449CB22AE5D8606041D3FEB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E72B702FFAD226F6E034D9B7FC6A59C6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075EA08813EFBF1B97E2B9783E4AE7F4 /* ReplaceMe.swift */; };
 		F9DDB6200E05A01C3B311A23FFD13319 /* TutSKImageExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 979DDFE8E956A2929A82B00EBEF57EF1 /* TutSKImageExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -37,37 +37,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		075EA08813EFBF1B97E2B9783E4AE7F4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TutSKImageExtension/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		07D3EB439B4D855DF892478F9C7A5F2E /* Pods-TutSKImageExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TutSKImageExtension_Tests.modulemap"; sourceTree = "<group>"; };
 		093ECB3AC58514101D86157058132CDB /* Pods-TutSKImageExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TutSKImageExtension_Example-Info.plist"; sourceTree = "<group>"; };
-		2BBE9D23B05B3ACAA67A405E0819FA58 /* TutSKImageExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TutSKImageExtension.framework; path = TutSKImageExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2186113B260B6CDC009FAF55 /* TutSKImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TutSKImageExtension.swift; path = TutSKImageExtension/Classes/TutSKImageExtension.swift; sourceTree = "<group>"; };
+		2BBE9D23B05B3ACAA67A405E0819FA58 /* TutSKImageExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TutSKImageExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC727BAF2A2DA9971E202D2F29AAC4A /* TutSKImageExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TutSKImageExtension.debug.xcconfig; sourceTree = "<group>"; };
 		4182067DC8FBD0E54819B5A636674570 /* Pods-TutSKImageExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TutSKImageExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		491FDBC071354F1F3B4157101276F651 /* Pods-TutSKImageExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TutSKImageExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		72060D123DF5A62A9A246D275457FC63 /* Pods-TutSKImageExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TutSKImageExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8580F37D9F716DFA256AFECB9527E90E /* Pods-TutSKImageExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TutSKImageExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		876D5728A31934A10171F9BD4962AA97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		876D5728A31934A10171F9BD4962AA97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8B017731F86C7E83B09A9DA9F3183682 /* Pods-TutSKImageExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TutSKImageExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D97E59ACFB2B8BD6DD2DC7B1B1A856C /* Pods-TutSKImageExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TutSKImageExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		91D705FCF76586A8BB4339B8932C4650 /* TutSKImageExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TutSKImageExtension.modulemap; sourceTree = "<group>"; };
 		979DDFE8E956A2929A82B00EBEF57EF1 /* TutSKImageExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TutSKImageExtension-umbrella.h"; sourceTree = "<group>"; };
 		9BCD8D73097AF643B54B3034CDE07CA8 /* Pods-TutSKImageExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TutSKImageExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DF5DD430C21E4F4EA0F995DA36DFA13 /* TutSKImageExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TutSKImageExtension-Info.plist"; sourceTree = "<group>"; };
-		AF72B00DE94C429B9106437025264F98 /* Pods_TutSKImageExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TutSKImageExtension_Tests.framework; path = "Pods-TutSKImageExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF72B00DE94C429B9106437025264F98 /* Pods_TutSKImageExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TutSKImageExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6AE082FE83E11CD3D4CD3CE2A8AFC13 /* Pods-TutSKImageExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TutSKImageExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CD310CF1DA5F1E42541AB7F2EF93F2C2 /* TutSKImageExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TutSKImageExtension.release.xcconfig; sourceTree = "<group>"; };
 		CE7AACE663D9A7DC151BDBD659FD63B8 /* TutSKImageExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TutSKImageExtension-prefix.pch"; sourceTree = "<group>"; };
 		D0586E0EF597BF6A544BE9E5BA0AECE1 /* TutSKImageExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TutSKImageExtension-dummy.m"; sourceTree = "<group>"; };
 		D060065A2FF70E19FDEE59ACBD62D7C6 /* Pods-TutSKImageExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TutSKImageExtension_Example-dummy.m"; sourceTree = "<group>"; };
-		D0BFFE834361FEF83801E0D1C435D757 /* Pods_TutSKImageExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TutSKImageExtension_Example.framework; path = "Pods-TutSKImageExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BFFE834361FEF83801E0D1C435D757 /* Pods_TutSKImageExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TutSKImageExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF35F1F01CB8380D73E49732842C672 /* Pods-TutSKImageExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TutSKImageExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DF87740836855924379FE10EA859A893 /* Pods-TutSKImageExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TutSKImageExtension_Tests-dummy.m"; sourceTree = "<group>"; };
-		E008222E3F4B26701E4E1C6E23358E68 /* TutSKImageExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TutSKImageExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E008222E3F4B26701E4E1C6E23358E68 /* TutSKImageExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TutSKImageExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EC96656E5987C8EEA9B881E612FD472C /* Pods-TutSKImageExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TutSKImageExtension_Tests-Info.plist"; sourceTree = "<group>"; };
 		EF77B63A56D9EA15F6076FA5299A6811 /* Pods-TutSKImageExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TutSKImageExtension_Example-umbrella.h"; sourceTree = "<group>"; };
-		F492ABC25D8EA43E21E89F15213E7DF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F492ABC25D8EA43E21E89F15213E7DF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F949070CE6A9ABB39DF3B3A1A6E08593 /* Pods-TutSKImageExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TutSKImageExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FFA5001AACE72DF414470B44C04ECFCB /* Pods-TutSKImageExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TutSKImageExtension_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,9 +119,9 @@
 		92206FE8E446CCF9FBC37E6D6C1561B9 /* TutSKImageExtension */ = {
 			isa = PBXGroup;
 			children = (
-				075EA08813EFBF1B97E2B9783E4AE7F4 /* ReplaceMe.swift */,
 				FA5642486F361ADEC079A7BBA21B0492 /* Pod */,
 				A3959206414918BF8A54D0C2A955791B /* Support Files */,
+				2186113B260B6CDC009FAF55 /* TutSKImageExtension.swift */,
 			);
 			name = TutSKImageExtension;
 			path = ../..;
@@ -317,6 +317,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					34677AA24821A83001EADF6D267D0627 = {
+						LastSwiftMigration = 1240;
+					};
+					A096C300C2C1274DA0CE4B60ADD9793E = {
+						LastSwiftMigration = 1240;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -367,8 +375,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E72B702FFAD226F6E034D9B7FC6A59C6 /* ReplaceMe.swift in Sources */,
 				24D12520354BB97F8DE15B8AE3867E45 /* TutSKImageExtension-dummy.m in Sources */,
+				2186113C260B6CDC009FAF55 /* TutSKImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD310CF1DA5F1E42541AB7F2EF93F2C2 /* TutSKImageExtension.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -573,6 +582,7 @@
 			baseConfigurationReference = 8D97E59ACFB2B8BD6DD2DC7B1B1A856C /* Pods-TutSKImageExtension_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -594,6 +604,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -604,6 +616,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AC727BAF2A2DA9971E202D2F29AAC4A /* TutSKImageExtension.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -623,6 +636,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -635,6 +649,7 @@
 			baseConfigurationReference = DCF35F1F01CB8380D73E49732842C672 /* Pods-TutSKImageExtension_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -656,6 +671,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -718,8 +734,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
