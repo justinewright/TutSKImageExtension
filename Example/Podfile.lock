@@ -1,0 +1,16 @@
+PODS:
+  - TutSKImageExtension (0.1.0)
+
+DEPENDENCIES:
+  - TutSKImageExtension (from `../`)
+
+EXTERNAL SOURCES:
+  TutSKImageExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TutSKImageExtension: cf5d18112f497d94a8b3a7c94c44891e5e71e416
+
+PODFILE CHECKSUM: 95b9c9b34ddfac6fa0809185f18d42a7512fa8fd
+
+COCOAPODS: 1.10.1

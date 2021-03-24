@@ -1,0 +1,6 @@
+framework module TutSKImageExtension {
+  umbrella header "TutSKImageExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
